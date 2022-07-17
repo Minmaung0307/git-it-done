@@ -4,7 +4,7 @@
   --tertiary: #788585;
   --light-dark: #6f6866;
   --dark: #38302e;
-  --border-radius: 0.3rem;
+  --border-radius: .3rem;
 }
 
 * {
@@ -42,9 +42,9 @@ p {
   font-size: 1.2rem;
 }
 
-.btn {
+ .btn {
   font-size: 1.3rem;
-  text-decoration: none;
+  text-decoration:none;
   padding: 6px 5px;
   width: 100%;
   display: block;
@@ -58,7 +58,7 @@ p {
   transform: translate(-1px, -1px);
 }
 
-.btn:hover {
+ .btn:hover {
   color: var(--primary);
   background-color: var(--tertiary);
   transform: translate(0, 0);
@@ -85,7 +85,7 @@ p {
   font-size: 1.2rem;
 }
 
-.btn-back:hover {
+ .btn-back:hover {
   color: var(--primary);
   background-color: var(--tertiary);
   transform: translate(0, 0);
@@ -133,7 +133,7 @@ p {
 .status-icon {
   padding: 2px 5px;
   margin: 0 5px;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255,255,255, 1);
   border-radius: var(--border-radius);
 }
 
@@ -156,7 +156,7 @@ p {
   color: var(--primary);
   background-color: var(--dark);
   padding: 2.5%;
-  border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
+  border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
 }
 
 .card-body {
@@ -198,6 +198,7 @@ p {
   text-transform: uppercase;
 }
 
+
 /* FLEX CONTENT */
 .flex-row {
   display: flex;
@@ -219,7 +220,7 @@ p {
 }
 
 .justify-flex-start {
-  justify-content: flex-start;
+  justify-content: flex-start
 }
 
 .justify-flex-end {
@@ -344,6 +345,7 @@ p {
     flex: 0 0 100%;
   }
 }
+
 
 /* col-md */
 @media screen and (min-width: 768px) {
@@ -497,3 +499,5 @@ p {
     flex: 0 0 100%;
   }
 }
+
+
